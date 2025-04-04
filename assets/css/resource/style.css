@@ -2,8 +2,12 @@
 
 
 /* top bar */
-
-.info_bar_icon img{
+.top_Bar_section{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.info_bar_icon img,.social_icon img{
 width: 20px;
 }
 .top_info_bar_icon .info_bar_icon{
@@ -14,4 +18,36 @@ width: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.top_info_bar_right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.social_icon{
+  background: var(--green);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top_bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.top_info_bar_left{
+  display: flex;
+  gap: 10px;
+}
+.top_info_bar_icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }

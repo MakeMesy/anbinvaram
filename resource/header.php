@@ -25,5 +25,19 @@
                   </div>
             </div>
         </div>
+
+        <div class="top_info_bar_right">
+            <div class="insta social_icon">
+            <img src="./assets/img/icon/instagram.png" alt="">
+            </div>
+            <div class="insta social_icon">
+            <img src="./assets/img/icon/facebook.png" alt="">
+            </div>
+            <div class="insta social_icon">
+            <img src="./assets/img/icon/whatsapp.png" alt="">
+            </div>
+        </div>
+
+
     </div>
 </div>
