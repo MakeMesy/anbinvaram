@@ -1,5 +1,4 @@
 <?php
-
 $page_image_main = "./assets/img/main/mainicon.png";
 ?>
 
@@ -50,8 +49,9 @@ $page_image_main = "./assets/img/main/mainicon.png";
 
 <!-- links -->
 <link rel="shortcut icon" href="<?php echo $page_image; ?>" type="image/x-icon">
-<link rel="stylesheet" href="./assets/css/resource/style.css">
 
+<link rel="stylesheet" href="./assets/css/resource/style.css">
+<script src="https://kit.fontawesome.com/181ea7bd20.js" crossorigin="anonymous"></script>
   
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 

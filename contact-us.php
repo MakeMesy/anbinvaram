@@ -1,7 +1,7 @@
 
 <?php
-$page_title = "Anbin Varam";
-$page_description = "";
+$page_title = "Contact Us | Anbin Varam ";
+$page_description = "Anbin Varam offers organic foods and natural healing for a healthy, sustainable, and chemical-free lifestyle.";
 $page_url = "https://www.anbinvaram.com/";
 $page_image = "./assets/img/main/icon.png";
 ?>
@@ -36,7 +36,7 @@ $page_image = "./assets/img/main/icon.png";
 </iframe>
 
 
-<section class="contact_section">
+<section class="contact_section  p-5">
     <div class="contact_main">
         <h2 class="contact_head_text text-5xl tracking-wider" >
             Get In Touch 
@@ -85,7 +85,7 @@ $page_image = "./assets/img/main/icon.png";
     Drop Us a Line
         </h2>
         <form action="">
-     <div class="input_forms">
+     <div class="input_forms ">
      <div class="input_form">
             <span>
                 <img src="./assets/img/icon/user.webp" alt="">
@@ -107,12 +107,10 @@ $page_image = "./assets/img/main/icon.png";
           <div class="input_form mt-10">
             <textarea name="" id="" placeholder="Your Message Here"></textarea>
            </div>
-           <div class="submit_btn mt-6">
-            <button>
+           <div class="submit_btn mt-10">
+            <button class="p-2">
            <span>
            GET IN TOUCH
-           </span> <span>
-            <img src="" alt="">
            </span>
             </button>
            </div>
