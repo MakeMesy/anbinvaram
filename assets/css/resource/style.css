@@ -485,7 +485,135 @@ width: 100%;
 }
 
 
+/* division box */
+.our_divisions {
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+.divisions_box{
+  width: 520px;
+padding-bottom: 5rem;
+padding: 20px;
+  height: 280px;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.green_bg{
+  background: linear-gradient(118.94deg, rgba(0, 164, 188, 0.6) 28.42%, rgba(164, 241, 253, 0.6) 88.65%);
+}
+.pink_bg{
+  background: linear-gradient(106.37deg, var(--light-pink) 7.66%, rgba(253, 0, 147, 0.1755) 89.99%);
+
+}
+.green_bg h2{
+  -webkit-text-stroke: 0.4px var(--green);
+  font-size: clamp(25px,2vw,48px);
+}
+.green_bg_2 h2{
+  font-size: clamp(25px,2vw,38px);
+
+}
+
+.pink_bg h2{
+-webkit-text-stroke: 0.4px var(--pink);
+font-size: clamp(23px,2vw,35px);
+}
+.green_bg span{
+  color: var(--green);
+}
+.pink_bg span{
+  color: var(--pink);
+
+}
+.divisions_box span{
+  font-size: clamp(14px,2vw,18px);
+
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.divisions_box img{
+  position: absolute;
+  width: 110px;
+  right: 5px;
+  bottom: 10px;
+}
+.divisions_sections_container{
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 2rem;
+
+}
+.divisons_content{
+  padding: 1rem;
+  margin-top: 0.4rem;
+  border: 3px solid var(--white);
+  height: 200px;
+
+}
+.divisons_content button{
+  margin-top: 2.8rem;
+  background: var(--green);
+  padding: 8px 18px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+.divisons_content button span{
+  color: var(--white);
+  font-size: clamp(15px,2vw,18px);
+}
+.pink_bg button{
+  background: var(--pink);
+
+}
+.pink_bg button span:nth-child(2){
+  background: var(--light-pink);
+}
+
+.divisons_content button span:nth-child(2){ 
+  padding: 12px;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.green_bg button span:nth-child(2){
+  background: var(--light-green);
+
+}
+.divisons_content h2{
+
+font-weight: bold;
+color: var(--white);
+text-transform: uppercase;
+}
+.divisons_content p{
+  margin-top: 1rem;
+
+  letter-spacing: 1px;
+  color: var(--white);
+  filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.2));
+  font-size: clamp(15px,2vw,20px);
+}
+
+
 @media screen and (max-width:768px) {
+  .divisions_sections_container{
+grid-template-columns: repeat(1,1fr);
+max-width: 380px;
+  }
+  .divisions_box{
+    width: 380px;
+
+  }
   .footer_main {
     flex-direction: column;
   }
