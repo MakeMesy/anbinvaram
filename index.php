@@ -3,7 +3,7 @@
 $page_title = "Anbin Varam";
 $page_description = "";
 $page_url = "https://www.anbinvaram.com/";
-$page_image = "./assets/img/main/icon.png";
+$page_image = "./assets/img/main/logo.webp";
 ?>
 
 

@@ -3,7 +3,7 @@
 $page_title = "About Us | Anbin Varam";
 $page_description = "Anbin Varam offers organic foods and natural healing for a healthy, sustainable, and chemical-free lifestyle.";
 $page_url = "https://www.anbinvaram.com/";
-$page_image = "./assets/img/main/icon.png";
+$page_image = "./assets/img/main/logo.webp";
 ?>
 
 

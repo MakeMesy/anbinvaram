@@ -70,7 +70,7 @@
         </div>
         <div class="footer_section footer_section_2">
    <div class="footer_img">
-    <img src="./assets/img/logo/organic_logo.webp" alt="">
+    <img src="./assets/img/main/logo.webp" alt="">
    </div>
    <div class="footer_content">
     <p class="text-justify mt-2 text-xl">

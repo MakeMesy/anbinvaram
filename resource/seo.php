@@ -1,5 +1,6 @@
 <?php
-$page_image_main = "./assets/img/main/mainicon.png";
+
+$page_image_main = "./assets/img/main/logo.webp";
 ?>
 
 <meta charset="UTF-8">
