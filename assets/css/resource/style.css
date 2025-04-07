@@ -508,7 +508,7 @@ padding: 20px;
 }
 .green_bg h2{
   -webkit-text-stroke: 0.4px var(--green);
-  font-size: clamp(25px,2vw,48px);
+  font-size: clamp(25px,2vw,35px);
 }
 .green_bg_2 h2{
   font-size: clamp(25px,2vw,38px);

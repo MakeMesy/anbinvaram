@@ -91,7 +91,9 @@ textarea, select {
 textarea:not([rows]) {
   min-height: 10em;
 }
-
+button{
+  cursor: pointer;
+}
 /* Anything that has been anchored to should have extra scroll margin */
 :target {
   scroll-margin-block: 5ex;
