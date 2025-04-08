@@ -1,5 +1,5 @@
 deployment:
   tasks:
-    - /bin/echo "Starting deployment..."
-    - /bin/cp -r * /home/anbinvar/public_html
-    - /bin/echo "Deployment completed!"
+    - export DEPLOYPATH=/home/anbinvar/public_html
+    - /bin/echo "Deploying to $DEPLOYPATH"
+    - /bin/rsync -av --exclude='.git' . $DEPLOYPATH
