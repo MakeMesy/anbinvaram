@@ -1,5 +1,5 @@
 <?php
-$page_title = "Anbin Varam";
+$page_title = "Anbin Varam Nature Food Private Limited";
 $page_description = "";
 $page_url = "https://www.anbinvaram.com/";
 $page_image = "./assets/img/main/logo.webp";
