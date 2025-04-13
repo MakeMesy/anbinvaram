@@ -491,10 +491,10 @@ width: 100%;
   margin-top: 2rem;
 }
 .divisions_box{
-  width: 520px;
+width: 100%;
 padding-bottom: 5rem;
 padding: 20px;
-  height: 280px;
+
   position: relative;
   border-radius: 8px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
@@ -549,13 +549,14 @@ gap: 2rem;
 }
 .divisons_content{
   padding: 1rem;
-  margin-top: 0.4rem;
   border: 3px solid var(--white);
   height: 200px;
 
 }
 .divisons_content button{
-  margin-top: 2.8rem;
+  position: absolute;
+  left: 30px;
+  bottom: 10px;
   background: var(--green);
   padding: 8px 18px;
   display: flex;
@@ -604,6 +605,8 @@ text-transform: uppercase;
   font-size: clamp(15px,2vw,20px);
 }
 
+/* divison box end */
+
 
 @media screen and (max-width:768px) {
   .divisions_sections_container{
@@ -640,6 +643,6 @@ max-width: 380px;
   .input_forms ,.contact_section ,.footer_box {
     flex-direction: column;
   }
-
+  
 
 }

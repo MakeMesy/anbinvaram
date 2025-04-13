@@ -57,10 +57,9 @@
 
 .divison_section {
     display: flex;
-    flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
-    align-content: center;
+   align-items: center;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -173,9 +172,7 @@
 }
 
 .about_section_img {
-
     width: 100%;
-
 }
 
 .mySwiper2 {
@@ -375,7 +372,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: 1rem;
 }
 
 .products_main_right {
@@ -496,8 +493,8 @@
 
 .products_main_points {
     display: grid;
-    gap: 3rem;
-    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 3fr));
 }
 
 .products_main_img_point img {
@@ -605,16 +602,17 @@
     .mySwiper2 img {
         width: 370px;
     }
+    .mySwiper2{
+        width: 320px;
+      }
+    
 
     .services_grid,
     .products_main,
-    .products_main_head {
+    .products_main_head,.divison_section {
         flex-direction: column;
     }
 
-    .products_main_points {
-        grid-template-columns: repeat(1, 1fr);
-    }
 
     .products_main_point {
         justify-content: center;

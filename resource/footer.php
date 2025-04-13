@@ -127,7 +127,7 @@
     </div>
     <div class="bottom_footer">
     <div>
-    <p>© Copyright 2025 by <strong>Anbin Varam</strong> | Design and Developed by <strong>Makemesy</strong></p>
+    <p>© Copyright 2025 by <a href="./"><strong>Anbin Varam</strong></a> | Design and Developed by <strong>Makemesy</strong></p>
 
     </div>
     </div>

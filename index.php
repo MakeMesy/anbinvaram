@@ -1,6 +1,6 @@
 <?php
-$page_title = "Anbin Varam Nature Food Private Limited";
-$page_description = "";
+$page_title = "Anbin Varam";
+$page_description = "Anbin Varam offers organic foods and natural healing for a healthy, sustainable, and chemical-free lifestyle.";
 $page_url = "https://www.anbinvaram.com/";
 $page_image = "./assets/img/main/logo.webp";
 ?>
@@ -12,13 +12,12 @@ $page_image = "./assets/img/main/logo.webp";
 
 <head>
   <?php include('./resource/seo.php') ?>
-
+  <!-- search console -->
+  <meta name="google-site-verification" content="GUJ6BOxrs3gpmsTZ217hUL7qckezKyN31sUTVhAYU7g" />
   <!-- cdns -->
   <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
-
 
   <!-- css -->
   <link rel="stylesheet" href="./assets/css/home/style.css">
@@ -54,24 +53,15 @@ Pure. Organic. Trusted
 Dedicated to providing pure, chemical-free organic products while fostering a healthier and more sustainable way of life. We ensure quality, support local farmers, and promote eco-friendly practices for a better tomorrow."
 </p>
 
+<a href="https://organic.anbinvaram.com/">
 <button>
   Explore
 </button>
+</a>
 
 </div>
 
     </section>
-
-
-
-
-
-
-
-
-
-
-
 
 
   <section class="divison_section">
