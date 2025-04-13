@@ -95,22 +95,23 @@
   <div class="mobile_nav_links">
   <ul>
       <li>
-        <a href="">Home</a>
+        <a href="./">Home</a>
       </li>
       <li>
-        <a href="">About</a>
+        <a href="./about.php">About</a>
       </li>
       <li>
-        <a href="">Services</a>
+        <a href="./services.php">Services</a>
       </li>
       <li>
-        <a href="">Gallery</a>
+        <a href="./gallery.php">Gallery</a>
       </li>
       <li>
-        <a href="">Contact</a>
+        <a href="./contact-us.php">Contact</a>
       </li>
     </ul>
     <div class="mobile_shop_btn shop_btn mt-2">
+    <a href="https://www.organic.anbinvaram.com">
     <button>
       <span>
         <img src="./assets/img/icon/store.webp" alt="">
@@ -119,6 +120,7 @@
         Shop
       </span>
     </button>
+    </a>
   </div>
     <div class="top_bar mobile_bottom_bar mt-2">
         <div class="top_info_bar_left flex-col items-start">

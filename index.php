@@ -133,8 +133,69 @@ Dedicated to providing pure, chemical-free organic products while fostering a he
   <div class="why_choose_section_main">
     <div class="why_choose_section">
       <div class="why_choose_left">
-        <img src="" alt="">
+        <img src="./assets/img/home/women.webp" alt="">
+</div>
+<div class="why_choose_right">
+  <div class="why_choose_head ">
+    <span>
+    Organic 100% genuine product served
+    </span>
+    <h2>
+    Why Choose Anbin Varam ?
+    </h2>
+  </div>
+  <div class="why_choose_points mt-7">
+    <div class="why_choose_point">
+      <div class="why_choose_point_img">
+           <img src="./assets/img/icon/icon_1.webp" alt="">
       </div>
+      <div class="why_choose_point_con">
+        <h2>
+        100% Natural & Chemical-Free
+        </h2>
+        <p>
+        Offering pure organic products and holistic natural healing.
+        </p>
+      </div>
+    </div>
+    <div class="why_choose_point">
+      <div class="why_choose_point_img">
+           <img src="./assets/img/icon/icon_3.webp" alt="">
+      </div>
+      <div class="why_choose_point_con">
+        <h2>
+        Integrated Natural Hospital
+        </h2>
+        <p>
+        Providing traditional treatments for a healthier, balanced life.        </p>
+      </div>
+    </div>
+    <div class="why_choose_point">
+      <div class="why_choose_point_img">
+           <img src="./assets/img/icon/icon_2.webp" alt="">
+      </div>
+      <div class="why_choose_point_con">
+        <h2>
+        Marachekku Oil Mill
+        </h2>
+        <p>
+        Cold-pressed oils made using age-old wooden press methods for purity and nutrition.        </p>
+      </div>
+    </div>
+    <div class="why_choose_point">
+      <div class="why_choose_point_img">
+           <img src="./assets/img/icon/icon_4.webp" alt="">
+      </div>
+      <div class="why_choose_point_con">
+        <h2>
+        Sustainable & Eco-Friendly
+        </h2>
+        <p>
+        Committed to organic farming, eco-conscious packaging, and supporting local farmers.        </p>
+      </div>
+    </div>
+  </div>
+</div>
     </div>
   </div>
 
@@ -454,7 +515,7 @@ Dedicated to providing pure, chemical-free organic products while fostering a he
 
   <!-- info banner -->
 
-  <section class="info_banner_main" style="background: url('./assets/img/home/info_bg.webp') no-repeat center center/cover;">
+  <section class="info_banner_main mb-10" style="background: url('./assets/img/home/info_bg.webp') no-repeat center center/cover;">
     <div class="info_banner">
       <div class="info_banner_point">
         <div>

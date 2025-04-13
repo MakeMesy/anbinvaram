@@ -47,7 +47,15 @@ $page_image_main = "./assets/img/main/logo.webp";
 
 
 <!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E03EYP5QNC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-E03EYP5QNC');
+</script>
 <!-- links -->
 <link rel="shortcut icon" href="<?php echo $page_image; ?>" type="image/x-icon">
 
